@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChallangePraktikum">
         <activity
-            android:name=".ContactActivity"
+            android:name=".controllers.ContactActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package com.example.challangepraktikum;
+package com.example.challangepraktikum.models;
 
 public class Contact {
     private int profile;

@@ -1,4 +1,4 @@
-package com.example.challangepraktikum;
+package com.example.challangepraktikum.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.challangepraktikum.models.Contact;
 import com.example.challangepraktikum.databinding.CardContactBinding;
 
 import java.util.ArrayList;
