@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.challangepraktikum.adapter.ContactAdapter;
+import com.example.challangepraktikum.adapters.ContactAdapter;
 import com.example.challangepraktikum.R;
 import com.example.challangepraktikum.models.Contact;
 import com.example.challangepraktikum.databinding.ContactBinding;

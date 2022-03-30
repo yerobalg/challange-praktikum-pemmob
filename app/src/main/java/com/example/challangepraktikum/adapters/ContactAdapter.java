@@ -1,4 +1,4 @@
-package com.example.challangepraktikum.adapter;
+package com.example.challangepraktikum.adapters;
 
 import android.content.Context;
 import android.content.Intent;
