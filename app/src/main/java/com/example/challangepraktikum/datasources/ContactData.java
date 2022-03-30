@@ -6,7 +6,7 @@ import com.example.challangepraktikum.models.Contact;
 import java.util.ArrayList;
 
 public class ContactData {
-    private ArrayList<Contact> contact;
+    private final ArrayList<Contact> contact = new ArrayList<>();
     public ContactData() {
         contact.add(new Contact(R.drawable.ayaka, "Kamisato Ayaka",
                 "ayaka20@gmail.com"));
