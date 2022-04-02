@@ -5,6 +5,7 @@
     android:layout_height="wrap_content"
     app:cardCornerRadius="20dp"
     app:cardBackgroundColor="@color/ungu"
+    android:layout_marginBottom="20dp"
     >
 
 
@@ -12,7 +13,8 @@
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="4dp">
+        android:layout_margin="4dp"
+        >
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profileCircleImageView"
@@ -26,9 +28,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="31dp"
-            android:layout_marginTop="11dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="40dp"
+            android:layout_toStartOf="@+id/callButton"
             android:layout_toEndOf="@id/profileCircleImageView"
+            android:gravity="center"
             android:text="Kamisato Ayaka"
             android:textColor="@color/white"
             android:textSize="20sp"
@@ -39,12 +44,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/nameTextView"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@+id/callButton"
             android:layout_toEndOf="@id/profileCircleImageView"
+            android:gravity="center"
             android:text="s_kokomi49@rocketmail.com"
             android:textColor="@color/white"
-            android:textSize="15sp" />
+            android:textSize="12sp" />
 
         <Button
             android:id="@+id/callButton"
@@ -54,12 +62,12 @@
             android:layout_marginTop="15dp"
             android:layout_marginEnd="9dp"
             android:layout_marginRight="-337dp"
+            android:background="@drawable/bg_login"
+            android:fontFamily="sans-serif"
             android:text="Email"
             android:textColor="@color/white"
-            android:textStyle="bold"
-            android:fontFamily="sans-serif"
-            android:background="@drawable/bg_login"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textStyle="bold" />
 
 
     </RelativeLayout>
