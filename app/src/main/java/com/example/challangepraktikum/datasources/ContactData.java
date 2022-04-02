@@ -11,11 +11,14 @@ public class ContactData {
         contact.add(new Contact(R.drawable.ayaka, "Kamisato Ayaka",
                 "ayaka20@gmail.com"));
         contact.add(new Contact(R.drawable.hu_tao, "Hu Tao",
-                "hutao12@protonmail.com"));
+                "hutao12@gmail.com"));
         contact.add(new Contact(R.drawable.qiqi, "Qiqi",
-                "qiqi44@yahoo.com"));
+                "qiqi44@gmail.com"));
         contact.add(new Contact(R.drawable.kokomi, "Sangonomiya Kokomi",
-                "s_kokomi49@rocketmail.com"));
+                "kokomis@gmail.com"));
+        contact.add(new Contact(R.drawable.raiden, "Raiden Shogun",
+                "shogun@gmail.com"));
+
     }
 
     public ArrayList<Contact> getContact() {
