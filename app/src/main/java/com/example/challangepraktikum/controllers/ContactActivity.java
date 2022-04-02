@@ -23,7 +23,7 @@ public class ContactActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         binding.welcomeTextView.setOnClickListener(view -> {
-            // Buat nerima intent dari page loginn
+            // Buat nerima intent dari page login
         });
 
         RecyclerView recyclerView = binding.recyclerView;
