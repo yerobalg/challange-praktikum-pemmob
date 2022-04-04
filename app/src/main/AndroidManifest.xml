@@ -11,16 +11,17 @@
         android:theme="@style/Theme.ChallangePraktikum">
         <activity
             android:name=".controllers.ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".controllers.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".controllers.LoginActivity" />
-        <activity android:name=".controllers.EmailActivity" />
+
     </application>
 
 </manifest>

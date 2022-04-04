@@ -1,5 +1,6 @@
 package com.example.challangepraktikum.controllers;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,9 +23,8 @@ public class ContactActivity extends AppCompatActivity {
         ContactBinding binding = ContactBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.welcomeTextView.setOnClickListener(view -> {
-            // Buat nerima intent dari page login
-        });
+        Intent intent = getIntent();
+        binding.name.setText(intent.getStringExtra("EMAIL"));
 
         RecyclerView recyclerView = binding.recyclerView;
         recyclerView.setHasFixedSize(true);
