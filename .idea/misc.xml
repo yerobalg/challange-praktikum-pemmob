@@ -11,9 +11,10 @@
         <entry key="..\:/challange-praktikum-pemmob/app/src/main/res/drawable/bg_button.xml" value="0.1295" />
         <entry key="..\:/challange-praktikum-pemmob/app/src/main/res/drawable/bg_layout.xml" value="0.1295" />
         <entry key="..\:/challange-praktikum-pemmob/app/src/main/res/drawable/bg_login.xml" value="0.1295" />
+        <entry key="..\:/challange-praktikum-pemmob/app/src/main/res/layout-land/login.xml" value="0.1728395061728395" />
         <entry key="..\:/challange-praktikum-pemmob/app/src/main/res/layout/card_contact.xml" value="0.33" />
         <entry key="..\:/challange-praktikum-pemmob/app/src/main/res/layout/contact.xml" value="0.20416666666666666" />
-        <entry key="..\:/challange-praktikum-pemmob/app/src/main/res/layout/login.xml" value="0.20416666666666666" />
+        <entry key="..\:/challange-praktikum-pemmob/app/src/main/res/layout/login.xml" value="0.25" />
       </map>
     </option>
   </component>
